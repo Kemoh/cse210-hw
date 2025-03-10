@@ -23,7 +23,7 @@ class Program
         int guessedNumber3 = int.Parse(Console.ReadLine());
         Console.WriteLine("You guessed it!");
 
-         // For Parts 2, where the user is asked for the initial magic number followed by guesses:
+        //  For Parts 2, where the user is asked for the initial magic number followed by guesses:
         Console.Write("What is the magic number? ");
         int magicNumberLoop1 = int.Parse(Console.ReadLine());
         Console.Write("What is you guess? ");
