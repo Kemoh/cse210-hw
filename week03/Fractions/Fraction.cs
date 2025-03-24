@@ -27,6 +27,7 @@ public class Fraction
     }
 
     // // Before implementing the Getter and Setter Menthods:
+    ///// Display method to see if the program works accordingly.
     // public void Display()
     // {
     //     Console.WriteLine($"{_top} / {_bottom}");
