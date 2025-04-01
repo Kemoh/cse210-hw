@@ -10,7 +10,7 @@ public class Word
         // Initialize the _text with the passed-in text parameter:
         _text = text;
         // At the start of the program, the word is visible:
-        _IsHidden = false; 
+        _IsHidden = false;
     }
 
     // Declare methods of the Word class:
@@ -52,3 +52,5 @@ public class Word
         }
     }
 }
+
+

@@ -6,7 +6,8 @@ public class Resume
     // Create the member variable for the person's name:
     public string _name;
 
-    // Create the member variable for the list of jobs:
+    // Create the member variable for the list of jobs and 
+    // initialize it::
     public List<Job> _jobs = new List<Job>();
 
     // Add a display method to the Resume class:
