@@ -11,11 +11,11 @@ public class ListingActivity : Activity
     {
         _prompts = new List<string>
         {
-            "Who are the people that you appreciate?",
-            "What are the personal strengths of yours?",
-            "Who are the people that you have helped this week?",
-            "When have you felt the Holy Ghost this month?",
-            "Who are some of your personal heroes?"
+            "\nWho are the people that you appreciate?",
+            "\nWhat are the personal strengths of yours?",
+            "\nWho are the people that you have helped this week?",
+            "\nWhen have you felt the Holy Ghost this month?",
+            "\nWho are some of your personal heroes?"
         };
     }
 
@@ -36,7 +36,7 @@ public class ListingActivity : Activity
 
         List<string> userList = new List<string>();
 
-        Console.WriteLine("Start listing! Type 'done' when finished.");
+        Console.WriteLine("\nStart listing! Type 'done' when finished.");
         while (elapsedTime < _duration)
         {
             string input = Console.ReadLine();

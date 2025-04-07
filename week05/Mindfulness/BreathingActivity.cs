@@ -16,12 +16,12 @@ public class BreathingActivity : Activity
         int elapsedTime = 0;
         while (elapsedTime < _duration)
         {
-            Console.WriteLine("Breathe in...");
+            Console.WriteLine("\nBreathe in...");
             // Simulate breathing in (4 seconds)
             ShowCountDown(4); 
             elapsedTime += 4;
 
-            Console.WriteLine("Breathe out...");
+            Console.WriteLine("\nBreathe out...");
             //Simulate breathing out (4 seconds)
             ShowCountDown(4); 
             elapsedTime += 4;

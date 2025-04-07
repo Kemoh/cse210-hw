@@ -32,7 +32,7 @@ public class Activity
     {
         ShowSpinner(3); // Simulate pause
         Console.WriteLine("\nGood job! You’ve completed the activity.");
-        Console.WriteLine($"You spent {_duration} seconds on the activity.");
+        Console.WriteLine($"\nYou spent {_duration} seconds on the activity.");
         ShowSpinner(3); // Simulate pause
     }
 
