@@ -22,7 +22,7 @@ public class Activity
         Console.WriteLine($"{_description}\n");
         Console.Write("How many seconds would you like to spend on this activity? ");
         _duration = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Get ready to begin...\n");
+        Console.WriteLine("\nGet ready to begin...\n");
          // Simulate pause
         ShowSpinner(3);
     }

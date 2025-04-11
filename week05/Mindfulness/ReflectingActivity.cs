@@ -53,7 +53,7 @@ public class ReflectingActivity : Activity
             for (int i = 0; i < 3 && elapsedTime < _duration; i++) // Limit to 3 questions for brevity
             {
                 string question = _questions[random.Next(_questions.Count)];
-                Console.WriteLine($"Question: {question}");
+                Console.WriteLine($"\nQuestion: {question}");
                 // Show pause animation
                 ShowSpinner(3); 
                 // Add time for each question and pause
