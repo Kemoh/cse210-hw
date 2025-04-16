@@ -1,0 +1,4 @@
+0
+SimpleGoal:Morning prayer,Wakeup by 6:00a.mevery morning to pray.,100,False
+EternalGoal: Attend church meeting,attend church meeting every Wednesday.,100
+ChecklistGoal: Pay tithe,Pay ithe every month.,100|100,12,0
