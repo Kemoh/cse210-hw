@@ -10,8 +10,9 @@ public class WritingAssignment : Assignment
         _title = title;
     }
     public string GetWritingInformation(){
-        //Notice that we are calling the getter here bexause _studentName is private in the base class
+        //Notice that we are calling the getter here because _studentName is private in the base class
         string studentName = GetStudentName();
+        
         return $"{_title} by {studentName}";
     }
 }
